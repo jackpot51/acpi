@@ -44,7 +44,7 @@ use bit_field::BitField;
 use core::{
     mem,
     slice,
-    str::FromStr,
+    str::{self, FromStr},
     sync::atomic::{AtomicU64, Ordering},
 };
 use log::{info, trace, warn};
